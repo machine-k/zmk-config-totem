@@ -111,10 +111,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-       &kp N1                    &kp NUMBER_2           &kp NUMBER_3                   &kp NUMBER_4         &kp N5       &kp NUMBER_6  &kp N7                &kp N8                           &kp N9                   &kp N0
-       &mt LEFT_GUI NON_US_HASH  &mt LEFT_ALT LEFT_ALT  &mt LEFT_CONTROL LEFT_CONTROL  &mt LEFT_SHIFT SEMI  &kp MINUS    &kp EQUAL     &mt RIGHT_SHIFT APOS  &mt RIGHT_CONTROL RIGHT_CONTROL  &mt RIGHT_ALT RIGHT_ALT  &mt RIGHT_GUI RIGHT_GUI
-&to 0  &none                     &none                  &none                          &none                &kp GRAVE    &kp F6        &kp F7                &kp F8                           &kp F9                   &kp F10                  &trans
-                                                        &trans                         &mo 2                &trans       &trans        &trans                &trans
+        &kp N1                    &kp NUMBER_2           &kp NUMBER_3                   &kp NUMBER_4         &kp N5       &kp NUMBER_6  &kp N7                &kp N8                           &kp N9                   &kp N0
+        &mt LEFT_GUI NON_US_HASH  &mt LEFT_ALT LEFT_ALT  &mt LEFT_CONTROL LEFT_CONTROL  &mt LEFT_SHIFT SEMI  &kp MINUS    &kp EQUAL     &mt RIGHT_SHIFT APOS  &mt RIGHT_CONTROL RIGHT_CONTROL  &mt RIGHT_ALT RIGHT_ALT  &mt RIGHT_GUI RIGHT_GUI
+&trans  &none                     &none                  &none                          &none                &kp GRAVE    &kp F6        &kp F7                &kp F8                           &kp F9                   &kp F10                  &trans
+                                                         &to 0                          &mo 2                &trans       &trans        &trans                &trans
             >;
         };
 
@@ -137,10 +137,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-            &none                    &kp UP_ARROW             &none                          &none                        &kp LEFT_BRACKET    &kp RIGHT_BRACKET  &none                        &kp UP_ARROW                  &none                    &none
-            &mt LEFT_GUI LEFT_ARROW  &mt RIGHT_ALT RIGHT_ALT  &mt RIGHT_CONTROL RIGHT_ARROW  &mt RIGHT_SHIFT RIGHT_SHIFT  &kp LEFT_BRACE      &kp RIGHT_BRACE    &mt RIGHT_SHIFT RIGHT_SHIFT  &mt RIGHT_CONTROL LEFT_ARROW  &mt RIGHT_ALT RIGHT_ALT  &mt RIGHT_GUI RIGHT_ARROW
-&kp ESCAPE  &none                    &kp DOWN_ARROW           &none                          &none                        &kp LS(N9)          &kp RS(N0)         &none                        &kp DOWN_ARROW                &none                    &none                      &trans
-                                                              &trans                         &none                        &trans              &trans             &trans                       &trans
+        &none                    &kp UP_ARROW             &none                          &none                        &kp LEFT_BRACKET    &kp RIGHT_BRACKET  &none                        &kp UP_ARROW                  &none                    &none
+        &mt LEFT_GUI LEFT_ARROW  &mt RIGHT_ALT RIGHT_ALT  &mt RIGHT_CONTROL RIGHT_ARROW  &mt RIGHT_SHIFT RIGHT_SHIFT  &kp LEFT_BRACE      &kp RIGHT_BRACE    &mt RIGHT_SHIFT RIGHT_SHIFT  &mt RIGHT_CONTROL LEFT_ARROW  &mt RIGHT_ALT RIGHT_ALT  &mt RIGHT_GUI RIGHT_ARROW
+&trans  &none                    &kp DOWN_ARROW           &none                          &none                        &kp LS(N9)          &kp RS(N0)         &none                        &kp DOWN_ARROW                &none                    &none                      &trans
+                                                          &none                          &none                        &trans              &trans             &trans                       &trans
             >;
         };
 
