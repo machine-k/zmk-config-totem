@@ -1,6 +1,6 @@
 include:
-  - board: seeduino_xiao_ble//zmk
+  - board: xiao_ble//zmk
     shield: totem_left
-  - board: seeduino_xiao_ble//zmk
+  - board: xiao_ble//zmk
     shield: totem_right
 # there is no settingsreset (needed) for the XIAO
